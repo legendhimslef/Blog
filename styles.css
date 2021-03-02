@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("bot.jpg");
+  height: 80vh;
+
+  background-size: cover;
+}
+.top-container {
+  background-image: url("banner.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  margin-top: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+nav {
+  padding: 20px;
+}
+nav ul {
+  float: right;
+  margin-top: auto;
+  color: black;
+}
+nav li {
+  display: inline;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 6.5rem;
+  padding-top: 150px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  left: 30px;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: rgba(5, 238, 160, 0.712);
+  border-width: 5px;
+  width: 15%;
+  margin: auto;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+.about-me {
+  padding: 50px;
+}
+.botl {
+  color: yellow;
+}
+.intro {
+  font-weight: bold;
+}
+.botl:hover {
+  color: blue;
+}
+.about-me img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.about-me p {
+  text-align: center;
+  padding: 40px;
+}
+.scroll {
+  text-align: left;
+  color: white;
+}
+.my-interests {
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+  width: 100vw;
+  font-weight: bold;
+}
+
+.my-interests h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.interest1 img {
+  width: 250px;
+  float: left;
+}
+
+.interest2 img {
+  width: 250px;
+  float: right;
+}
+
+.interest-info {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.interest1 {
+  display: block;
+  margin: 50px auto;
+  width: 50%;
+  height: 260px;
+  padding: 25px;
+}
+
+.interest2 {
+  display: block;
+  margin: 50px auto; /* top right bottom left  */
+  width: 50%;
+  height: 260px;
+  padding: 25px;
+}
+
+.contactme {
+  padding: 80px;
+}
+
+.contactme h2 {
+  padding: 40px;
+}
+
+.contactme p {
+  text-align: center;
+  padding: 40px;
+}
+
+.btn {
+  padding: 10px 15px;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  padding: 50px;
+  text-align: center;
+  background-image: url("footer.png");
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  margin-top: 0;
+  background-color: transparent;
+  margin-top: 20px;
+}
+
+footer .media a {
+  padding: 10px 20px;
+  margin: 10px;
+}
+footer .media1 a {
+  padding: 20px 20px;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px;
+}
+footer .media2 {
+  padding: 20px 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+.nav1 {
+  padding: 20px 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+  color: white;
+}
+.nav2 {
+  padding: 20px 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+  color: white;
+}
+.nav3 {
+  padding: 20px 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+  color: white;
+}
+.nav4 {
+  padding: 20px 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+  color: white;
+}
+footer .media3 a {
+  padding: 20px 20px;
+  font-weight: bold;
+  text-align: right;
+  margin: 10px;
+}
+
+footer p {
+  font-size: 2rem; /*1rem = 16px - fixed default.*/
+  padding: 30px 30px;
+}
+.stop {
+  text-align: left;
+}
